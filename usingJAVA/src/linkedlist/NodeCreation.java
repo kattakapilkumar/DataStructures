@@ -4,6 +4,7 @@ public class NodeCreation
 {
 
 	Node head;   //object reference
+	//to start the linkedlist  head is required
 	class Node 
 	{
 		int data;   //datatype
@@ -22,7 +23,7 @@ public class NodeCreation
 		
 		
 		
-		//to start the linkedlist  head is required
+		
 				
 		
 	}
