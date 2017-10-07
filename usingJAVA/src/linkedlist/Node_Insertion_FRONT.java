@@ -1,6 +1,6 @@
 package linkedlist;
 
-public class Node_Insertion_FRONT extends LinkedListExample1
+public class Node_Insertion_FRONT  
 {
 	Node head;
 	public void push(int new_data)

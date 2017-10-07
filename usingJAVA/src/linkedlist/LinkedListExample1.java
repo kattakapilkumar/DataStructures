@@ -18,24 +18,24 @@ public class LinkedListExample1
 	
 	
 	
-	static Node justobj;
+	//static Node justobj;
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
 		LinkedListExample1  obj=new LinkedListExample1();
+						
+		obj.head = new Node(1);           //creating first node
+		Node secondobj = new Node(2);     // creating second NODE
+		Node thirdobj = new Node(3);	 //creating third NODE
 		
 		
 		
-		Node new_dataobj = new Node(4);
-		obj.head = new Node(1);
-		Node secondobj = new Node(2);
-		Node thirdobj = new Node(3);		
 		obj.head.next = secondobj;
 		secondobj.next = thirdobj;	
 		
-		justobj.push(6);
+		//justobj.push(6);
 		
-		obj.printList();
+		//obj.printList();
 		
 	}
 	public void printList()
